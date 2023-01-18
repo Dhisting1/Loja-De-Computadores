@@ -173,6 +173,7 @@ img{
     color: #929da5;
     font-size: 14px;
     word-spacing: 5px;
+    text-align: justify;
 }
 /* Imagens do final do site */
 .last-articles-title{
