@@ -269,8 +269,10 @@ img{
     position: absolute;
     top: 50%;
     cursor: pointer;
-
 } 
+.js .pc-slider i{
+    background-color: #63c6ae;
+}
 .js .pc-slider .prev{
     left: -50px;
 }
