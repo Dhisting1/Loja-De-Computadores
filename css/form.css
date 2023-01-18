@@ -1,0 +1,107 @@
+.content2{ 
+    background-Repeat: No-Repeat;
+    height: 99vh;
+    overflow-Y: Hidden;
+    display: Flex;
+    justify-Content: Center;
+    align-Items: Center;
+    font-Family: 'Mukta', sans-serif;
+    
+}
+.formbox{
+    padding: 15px;
+    text-align: center;
+    min-height: 50vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background: rgb(186,36,236);
+    background: radial-gradient(circle, rgba(186,36,236,1) 2%, rgba(101,46,121,1) 100%);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    
+}
+.formbox h2{
+    margin-bottom: -10px;
+    color: white;
+}
+.formbox p{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: white;
+}
+form{
+    padding: 10px;
+}
+ form > div{
+    padding: 10px;
+    position: relative;
+    font-size: 1.3em;
+}
+form > div span{
+    position: absolute;
+    top: 22px;
+    margin-left: 10px;
+    opacity: .6;
+}
+form > div input{
+    height: 2em;
+    width: 70vw;
+    padding-left: 40px;
+    font-size: 1em;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #b5adad;
+    background-color: #f1f1f1;
+}
+form > div > input:focus{
+    border: 1px solid #6f6a6a;
+}
+form > div:hover > span{
+    opacity: 1;
+    transition: opacity 1s;
+}
+textarea{
+    border: none;
+    width: 100vh;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 1em;
+    resize: none;
+}
+button{
+    width: 50%;
+    height: 5vh;
+    color: #ffffff;
+    background: #57cf50;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: .8em;
+}
+button:hover{
+    background: #b891cb;
+}
+@media screen and (min-width: 1025px){
+    form > div input{
+        width: 30vw;
+        font-size: .8em;
+    }
+    textarea{
+        width: 30vw;
+        padding-right: 10px;
+    }
+}
+/* @media screen and (min-width: 62.5){
+    form > div input{
+        width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    .content2{
+        padding-bottom: 0;
+    }
+} */
