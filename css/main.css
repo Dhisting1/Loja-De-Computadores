@@ -29,6 +29,7 @@ img{
 .js .top-header{
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .top-header-nav{
     /* display: inline-block; */
@@ -234,12 +235,47 @@ img{
     width: 100%;
     overflow: auto;
 }
-.slide-show{
+.slideshow{
     white-space: nowrap;
 
 }
-.slide-show figure{
+.slideshow figure{
     display: inline-block;
+}
+.js .pc-slider{
+    overflow: hidden;
+}
+.js .pc-slider .slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+}
+.js .pc-slider .slideshow figure{
+    opacity: 0;
+    transition: 1s opacity;
+    width: 100%;
+   
+}
+.js .pc-slider .slideshow figure.show{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.js .pc-slider .prev,
+.js .pc-slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+
+} 
+.js .pc-slider .prev{
+    left: -50px;
+}
+.js .pc-slider .next{
+    right: -130px;
 }
 /* Slide de texto */
 .quote-container{

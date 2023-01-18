@@ -15,7 +15,7 @@
     });
 
     var carrosselImgs = new Carrossel({
-        container: '.pc-slider .slide-show',
+        container: '.pc-slider .slideshow',
         itens: 'figure',
         btnPrev: '.prev',
         btnNext: '.next',
