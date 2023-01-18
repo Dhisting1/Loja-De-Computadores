@@ -120,7 +120,7 @@ img{
     margin-top: 10px;
 }
 .container-section-article-cards:hover{
-    outline: 5px solid #63c6ae;
+    outline: 5px solid #FF6201;
     outline-offset: -5px;
     /* margin-top: 10px; */
 }
@@ -129,7 +129,7 @@ img{
 }
 .container-section-article-cards:hover .container-section-title,
 .container-section-article-cards:hover .container-section-text{
-    color: #63c6ae;
+    color: #FF6201;
 }
 .container-section-article-cards-img{
     width: 100%;
@@ -226,7 +226,7 @@ img{
 
 }
 .button-secundary{
-    background-color: #455357;
+    background-color: #FF6201;
     color: white;   
 }
 /* Slide com imagens */

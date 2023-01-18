@@ -6,8 +6,8 @@
     justify-Content: Center;
     align-Items: Center;
     font-Family: 'Mukta', sans-serif;
-    
-}
+
+    }
 .formbox{
     padding: 15px;
     text-align: center;
@@ -15,8 +15,8 @@
     min-width: 50vw;
     display: flex;
     flex-direction: column;
-    background: #63c6ae;
-    background: radial-gradient(circle, #63c6ae 2%, #242a2c 100%);
+    background: #f63f02bb;
+    background: radial-gradient(circle, #F63E02 5%, #FF6201 85%);
     border-radius: 30px;
     backdrop-filter: blur(10px);
     
@@ -26,7 +26,7 @@
     color: white;
 }
 .formbox p{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.1em;
     color: white;
 }
@@ -74,15 +74,15 @@ button{
     width: 50%;
     height: 5vh;
     color: #ffffff;
-    background: #57cf50;
+    background: #08d564;
     outline: none;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: .8em;
+    font-size: .9em;
 }
 button:hover{
-    background: #b891cb;
+    background: #0cdf4b;
 }
 @media screen and (min-width: 1025px){
     form > div input{
