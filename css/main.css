@@ -207,7 +207,7 @@ img{
 .button{
     padding: 15px 40px;
     border-radius: 5px;
-    background: red;
+    /* background: red; */
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -322,14 +322,9 @@ img{
 .footer-logo{
     text-transform: uppercase;
 }
-/* Nunca alterar o tamanho dessas imagens */
-/* ***************************************** */
-/* .slide-show img{
-    width: 830px;
-    height: 503px;
-} */
-/* ***************************************** */
-
+#mais{
+    display: none;
+}
 /* Responsividade */
 @media screen and (min-width:1025px){
     /* Menu responsivo */
