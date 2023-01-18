@@ -14,7 +14,7 @@ img{
 }
 .logo-text{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: #F63E02;
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -66,7 +66,7 @@ img{
     transition: .5s ease-in-out;
 }
 .top-header-nav a:hover{
-    color: #63c6ae;
+    color: #FF6201;
 }
 .hero-content{
     height: 80vh;
@@ -87,7 +87,7 @@ img{
 }
 .hero-content-title{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: #F63E02;
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -177,7 +177,7 @@ img{
 }
 /* Imagens do final do site */
 .last-articles-title{
-    background-color: #63c6ae;
+    background-color: #F63E02;
     padding: 5px 0;
 }
 .last-articles-title h2{
@@ -221,7 +221,7 @@ img{
     background-color: #929da5;
 }
 .button-primary{
-    background-color: #63c6ae;
+    background-color: #FF6201;
     color: white;
 
 }
@@ -272,7 +272,7 @@ img{
     cursor: pointer;
 } 
 .js .pc-slider i{
-    background-color: #63c6ae;
+    background-color: #FF6201;
 }
 .js .pc-slider .prev{
     left: -50px;
@@ -282,9 +282,9 @@ img{
 }
 /* Slide de texto */
 .quote-container{
-    background-color: #63c6ae;
+    background-color: #FF6201;
     padding: 50px 0;
-    border-bottom: 12px solid #58b9a1;
+    border-bottom: 12px solid #F63E02;
 }
 .quote-slide-show h2{
     color: white;
