@@ -53,7 +53,7 @@ img{
     font-size: 14px;
 }
 .js .top-header-nav{
-    transition: max-height 1s;
+    transition: max-height 1.5s;
 }
 .top-header-nav a{
     color: #FF6201;
@@ -66,7 +66,7 @@ img{
     transition: .5s ease-in-out;
 }
 .top-header-nav a:hover{
-    color: #1F1300;
+    color: white;
 }
 .hero-content{
     height: 80vh;
@@ -331,13 +331,13 @@ img{
     display: none;
 }
 /* Responsividade */
-@media screen and (min-width:1025px){
+@media screen and (min-width:1024px){
     /* Menu responsivo */
     .top-header{
         position: fixed;
     }
     .logo-text{
-        width: 15%;
+        width: 20%;
         box-sizing: border-box;
     }
     .header-btn-menu{
@@ -345,7 +345,7 @@ img{
     }
     .top-header-nav{
         float: left;
-        width: 85%;
+        width: 80%;
         clear: none;
         max-width: 1000px;
     }
@@ -360,6 +360,10 @@ img{
     }
     .top-header-nav a{
         background: white;
+        transition: .5s ease-in-out;
+    }
+    .top-header-nav a:hover{
+        color: #1f1300;
     }
     .container-section{
         display: grid;
