@@ -15,8 +15,8 @@
     min-width: 50vw;
     display: flex;
     flex-direction: column;
-    background: rgb(186,36,236);
-    background: radial-gradient(circle, rgba(186,36,236,1) 2%, rgba(101,46,121,1) 100%);
+    background: #63c6ae;
+    background: radial-gradient(circle, #63c6ae 2%, #242a2c 100%);
     border-radius: 30px;
     backdrop-filter: blur(10px);
     
@@ -63,7 +63,7 @@ form > div:hover > span{
 }
 textarea{
     border: none;
-    width: 100vh;
+    width: 80%;
     border-radius: 20px;
     padding: 10px;
     outline: none;
@@ -94,7 +94,7 @@ button:hover{
         padding-right: 10px;
     }
 }
-/* @media screen and (min-width: 62.5){
+@media screen and (min-width: 62.5){
     form > div input{
         width: 40vw;
     }
@@ -104,4 +104,4 @@ button:hover{
     .content2{
         padding-bottom: 0;
     }
-} */
+}

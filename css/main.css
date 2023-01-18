@@ -319,6 +319,10 @@ img{
     font-weight: 600;
     text-decoration: none;
 }
+.footer-container a{
+    text-decoration: none;
+    color: white;
+}
 .footer-logo{
     text-transform: uppercase;
 }
