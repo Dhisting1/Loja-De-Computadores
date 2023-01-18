@@ -56,7 +56,7 @@ img{
     transition: max-height 1s;
 }
 .top-header-nav a{
-    color: #586165;
+    color: #FF6201;
     text-transform: uppercase;
     text-decoration: none;
     padding: 25px 0;
@@ -66,7 +66,7 @@ img{
     transition: .5s ease-in-out;
 }
 .top-header-nav a:hover{
-    color: #FF6201;
+    color: #1F1300;
 }
 .hero-content{
     height: 80vh;
