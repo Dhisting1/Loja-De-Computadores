@@ -81,7 +81,7 @@ img{
 
     linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
     linear-gradient(-45deg, white 50%, transparent 45%) left calc(50% - 20px) bottom no-repeat,
-    url(../img/base/01.jpg);
+    url(../img/slider/pc-fundo-section.webp);
     
     background-size: 40px 40px, 40px 40px, cover;
 }
@@ -124,9 +124,9 @@ img{
     outline-offset: -5px;
     /* margin-top: 10px; */
 }
-.container-section-article-cards:hover .article-cards-avatar img{
+/* .container-section-article-cards:hover .article-cards-avatar img{
     transform: translateY(-50%);
-}
+} */
 .container-section-article-cards:hover .container-section-title,
 .container-section-article-cards:hover .container-section-text{
     color: #FF6201;
